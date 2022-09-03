@@ -13,7 +13,7 @@ class MissingNumberFinder {
     static int missingNumberFinder(int array[], int n) {
         // write your code here
         int k = 1;
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n - 1; i++){
             if(array[i] != k){
                 break;
             }
